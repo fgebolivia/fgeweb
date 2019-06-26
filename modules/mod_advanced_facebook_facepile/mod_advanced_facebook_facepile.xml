@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.1"
+	client="site"
+	method="upgrade">
+	<name>Advanced Facebook Facepile</name>
+	<author>SEO HOW TO</author>
+	<creationDate>March, 2014</creationDate>
+	<copyright>All rights reserved by seohowto.net</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>info@seohowto.com</authorEmail>
+	<authorUrl>www.seohowto.net</authorUrl>
+	<version>2.0.2</version>
+	<description>
+	Thanks for installing Advanced Facebook Facepile.
+	</description>
+	<files>
+		<filename module="mod_advanced_facebook_facepile">mod_advanced_facebook_facepile.php</filename>
+		<folder>tmpl</folder>
+		<filename>index.html</filename>
+		<filename>mod_advanced_facebook_facepile.xml</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_advanced_facebook_facepile.ini</language>
+		<language tag="en-GB">en-GB.mod_advanced_facebook_facepile.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="page"
+					type="text"
+					default="http://www.facebook.com/Facebook"
+					label="MOD_ADVANCED_CUSTOM_FACEBOOK_LIKEBOX_WIDGET_FACEBOOK_PAGE_URL_LABEL"
+					description="MOD_ADVANCED_CUSTOM_FACEBOOK_LIKEBOX_WIDGET_FACEBOOK_PAGE_URL_DESC" />
+				<field
+					name="page_name"
+					type="text"
+					default="Facebook Developers"
+					label="Page Name"
+					description="Name of your Facebook Page" />
+				<field
+					name="lang"
+					type="list"
+					default="en_GB"
+					label="Select Language"
+					description="Select Your Language">
+					<option value="af_ZA">Afrikaans</option>
+<option value="ar_AR">Arabic</option>
+<option value="az_AZ">Azerbaijani</option>
+<option value="be_BY">Belarusian</option>
+<option value="bg_BG">Bulgarian</option>
+<option value="bn_IN">Bengali</option>
+<option value="bs_BA">Bosnian</option>
+<option value="ca_ES">Catalan</option>
+<option value="cs_CZ">Czech</option>
+<option value="cx_PH">Cebuano</option>
+<option value="cy_GB">Welsh</option>
+<option value="da_DK">Danish</option>
+<option value="de_DE">German</option>
+<option value="el_GR">Greek</option>
+<option value="en_GB">English (UK)</option>
+<option value="en_PI">English (Pirate)</option>
+<option value="en_UD">English (Upside Down)</option>
+<option value="en_US">English (US)</option>
+<option value="eo_EO">Esperanto</option>
+<option value="es_ES">Spanish (Spain)</option>
+<option value="es_LA">Spanish</option>
+<option value="et_EE">Estonian</option>
+<option value="eu_ES">Basque</option>
+<option value="fa_IR">Persian</option>
+<option value="fb_LT">Leet Speak</option>
+<option value="fi_FI">Finnish</option>
+<option value="fo_FO">Faroese</option>
+<option value="fr_CA">French (Canada)</option>
+<option value="fr_FR">French (France)</option>
+<option value="fy_NL">Frisian</option>
+<option value="ga_IE">Irish</option>
+<option value="gl_ES">Galician</option>
+<option value="gn_PY">Guarani</option>
+<option value="he_IL">Hebrew</option>
+<option value="hi_IN">Hindi</option>
+<option value="hr_HR">Croatian</option>
+<option value="hu_HU">Hungarian</option>
+<option value="hy_AM">Armenian</option>
+<option value="id_ID">Indonesian</option>
+<option value="is_IS">Icelandic</option>
+<option value="it_IT">Italian</option>
+<option value="ja_JP">Japanese</option>
+<option value="jv_ID">Javanese</option>
+<option value="ka_GE">Georgian</option>
+<option value="km_KH">Khmer</option>
+<option value="kn_IN">Kannada</option>
+<option value="ko_KR">Korean</option>
+<option value="ku_TR">Kurdish</option>
+<option value="la_VA">Latin</option>
+<option value="lt_LT">Lithuanian</option>
+<option value="lv_LV">Latvian</option>
+<option value="mk_MK">Macedonian</option>
+<option value="ml_IN">Malayalam</option>
+<option value="ms_MY">Malay</option>
+<option value="nb_NO">Norwegian (bokmal)</option>
+<option value="ne_NP">Nepali</option>
+<option value="nl_NL">Dutch</option>
+<option value="nn_NO">Norwegian (nynorsk)</option>
+<option value="pa_IN">Punjabi</option>
+<option value="pl_PL">Polish</option>
+<option value="ps_AF">Pashto</option>
+<option value="pt_BR">Portuguese (Brazil)</option>
+<option value="pt_PT">Portuguese (Portugal)</option>
+<option value="ro_RO">Romanian</option>
+<option value="ru_RU">Russian</option>
+<option value="si_LK">Sinhala</option>
+<option value="sk_SK">Slovak</option>
+<option value="sl_SI">Slovenian</option>
+<option value="sq_AL">Albanian</option>
+<option value="sr_RS">Serbian</option>
+<option value="sv_SE">Swedish</option>
+<option value="sw_KE">Swahili</option>
+<option value="ta_IN">Tamil</option>
+<option value="te_IN">Telugu</option>
+<option value="th_TH">Thai</option>
+<option value="tl_PH">Filipino</option>
+<option value="tr_TR">Turkish</option>
+<option value="uk_UA">Ukrainian</option>
+<option value="ur_PK">Urdu</option>
+<option value="vi_VN">Vietnamese</option>
+<option value="zh_CN">Simplified Chinese (China)</option>
+<option value="zh_HK">Traditional Chinese (Hong Kong)</option>
+<option value="zh_TW">Traditional Chinese (Taiwan)</option>
+
+				</field>
+				
+				
+                                <field
+					name="width"
+					type="text"
+					default="300"
+					label="MOD_ADVANCED_CUSTOM_FACEBOOK_LIKEBOX_WIDGET_WIDTH_LABEL"
+					description="MOD_ADVANCED_CUSTOM_FACEBOOK_LIKEBOX_WIDGET_WIDTH_DESC" />
+				<field
+					name="height"
+					type="text"
+					default="556"
+					label="MOD_ADVANCED_CUSTOM_FACEBOOK_LIKEBOX_WIDGET_HEIGHT_LABEL"
+					description="MOD_ADVANCED_CUSTOM_FACEBOOK_LIKEBOX_WIDGET_HEIGHT_DESC" />
+				<field
+					name="stream"
+					type="list"
+					default="true"
+					label="MOD_ADVANCED_CUSTOM_FACEBOOK_LIKEBOX_WIDGET_STREAM_LABEL"
+					description="MOD_ADVANCED_CUSTOM_FACEBOOK_LIKEBOX_WIDGET_STREAM_DESC">
+					<option
+						value="true">MOD_ADVANCED_CUSTOM_FACEBOOK_LIKEBOX_WIDGET_STREAM_OPTION_YES</option>
+					<option
+						value="false">MOD_ADVANCED_CUSTOM_FACEBOOK_LIKEBOX_WIDGET_STREAM_OPTION_NO</option>
+				</field>
+				<field
+					name="background"
+					type="color"
+					default="#050026"
+					label="MOD_ADVANCED_CUSTOM_FACEBOOK_LIKEBOX_WIDGET_BACKGROUND_LABEL"
+					description="MOD_ADVANCED_CUSTOM_FACEBOOK_LIKEBOX_WIDGET_BACKGROUND_DESC" />
+				<field
+					name="header"
+					type="list"
+					default="false"
+					label="Hide Cover"
+					description="Hide Cover - True or False">
+					<option
+						value="true">Yes</option>
+					<option
+						value="false">No</option>
+				</field>
+                                <field
+					name="show_facepile"
+					type="list"
+					default="true"
+					label="Show Facepile"
+					description="Show Facepile - True or False">
+					<option
+						value="true">Yes</option>
+					<option
+						value="false">No</option>
+				</field>
+                                <field
+					name="adapt_container_width"
+					type="list"
+					default="true"
+					label="Adapt Container Width"
+					description="Adapt Container Width - True or False">
+					<option
+						value="true">Yes</option>
+					<option
+						value="false">No</option>
+				</field>
+                                <field
+					name="small_header"
+					type="list"
+					default="false"
+					label="Small Header"
+					description="Small Header - True or False">
+					<option
+						value="true">Yes</option>
+					<option
+						value="false">No</option>
+				</field>
+				<field
+					name="padding"
+					type="text"
+					default="15"
+					label="MOD_ADVANCED_CUSTOM_FACEBOOK_LIKEBOX_WIDGET_PADDING_LABEL"
+					description="MOD_ADVANCED_CUSTOM_FACEBOOK_LIKEBOX_WIDGET_PADDING_DESC" />
+				<field
+					name="radius"
+					type="text"
+					default="15"
+					label="MOD_ADVANCED_CUSTOM_FACEBOOK_LIKEBOX_WIDGET_RADIUS_LABEL"
+					description="MOD_ADVANCED_CUSTOM_FACEBOOK_LIKEBOX_WIDGET_RADIUS_DESC" />
+				<field
+					name="border"
+					type="text"
+					default="2"
+					label="MOD_ADVANCED_CUSTOM_FACEBOOK_LIKEBOX_WIDGET_BORDER_LABEL"
+					description="MOD_ADVANCED_CUSTOM_FACEBOOK_LIKEBOX_WIDGET_BORDER_DESC" />
+				<field
+					name="bordercolor"
+					type="color"
+					default="#9A1717"
+					label="MOD_ADVANCED_CUSTOM_FACEBOOK_LIKEBOX_WIDGET_BORDER_COLOR_LABEL"
+					description="MOD_ADVANCED_CUSTOM_FACEBOOK_LIKEBOX_WIDGET_BORDER_COLOR_DESC" />
+				
+			</fieldset>
+			<fieldset name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

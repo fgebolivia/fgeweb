@@ -1,0 +1,170 @@
+// RTL STYLES
+// ------------------------------------------------------
+
+// OffCanvas
+.t3-off-canvas {
+	left: auto!important;
+	right: 0!important;
+}
+
+.languageswitcherload {
+  ul {
+    float: left;
+  }
+}
+
+// Icon RTL
+.fa {
+	&.fa-angle-right:before {
+		content: "\f104";
+	}
+
+	&.fa-angle-left:before {
+		content: "\f105";
+	}
+}
+
+.glyphicon {
+	&.glyphicon-chevron-right::before {
+		content: "\e079";
+	}
+
+	&.glyphicon-chevron-left::before {
+		content: "\e080";
+	}
+}
+
+// Swiper
+div.swiper-container-rtl {
+	.swiper-button-prev {
+		background: @white;
+		right: 0;
+		left: auto;
+	}
+
+	.swiper-button-next {
+		background: @white;
+		left: 0;
+		right: auto;
+	}
+}
+
+// Icon media
+.ja-video-list .btn-play .ico,
+.ja-gallery-list .btn-play .ico {
+	background-position: right center;
+
+	&.ico-play {
+		background-position: left center;
+	}
+}
+
+// Thumbnail Media
+#ja-main-player img {
+	left: 50%;
+	right: auto;
+}
+
+// Top Bar
+.topbar-right > * {
+	float: left;
+
+	&:first-child {
+		border-left: 1px solid @t3-border-color;
+	}
+}
+
+.topbar-left > * {
+	float: none;
+
+	&:first-child {
+		border-left: 0;
+	}
+}
+
+// Ja Tabs
+.ja-tabswrap.default .container {
+	height: auto;
+}
+
+// Search
+div#finder-filter-window .filter-branch .finder-selects {
+	float: right;
+}
+
+.carousel-control {
+	&.right {
+		right: 0;
+		left: auto;
+
+		.fa.fa-angle-right:before {
+			content: "\f105";
+		}
+	}
+
+	&.left {
+		left: 0;
+		right: auto;
+
+		.fa.fa-angle-left:before {
+			content: "\f104";
+		}
+	}
+}
+
+.gallery .ja-gallery-list-wrap .carousel-control {
+	left: @grid-gutter-width;
+	right: auto;
+
+	// Mobile view
+	@media (max-width: @screen-xs-max) {
+		left: @t3-global-margin;
+	}
+
+	&.right {
+		left: auto;
+		right: @grid-gutter-width;
+
+		// Mobile view
+		@media (max-width: @screen-xs-max) {
+			right: @t3-global-margin;
+		}
+	}
+}
+
+// Fix Popover for RTL
+.popover.left {
+	right: auto !important;
+
+	&:before, &:after {
+		position: absolute;
+		display: block;
+		width: 0;
+		height: 0;
+		content: "";
+		top: 50%;
+		border: 11px solid transparent;
+		border-right: none;
+	}
+
+	&:before {
+    right: -11px;
+    margin-top: -11px;
+    border-left-color: rgba(0,0,0,.25);
+		border-width: 11px;
+	}
+
+	&:after {
+    right: -10px;
+    margin-top: -10px;
+    border-left-color: #fff;
+		border-width: 10px;
+	}
+
+	> .arrow {
+		display: none;
+		&:before, &:after {
+			display: none;
+		}
+	}
+}

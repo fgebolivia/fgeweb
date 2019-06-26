@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+	<name>Advanced Twitter Display</name>
+	<author>SEO HOW TO</author>
+	<creationDate>5/2/2014</creationDate>
+	<copyright>Copyright (C) 2012 - 2018 SEO HOW TO, Inc. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>admin@seohowto.net</authorEmail>
+	<authorUrl>www.seohowto.net</authorUrl>
+	<version>2.0</version>
+	<description>Show twitter feeds on your website with high level customization. Download it for free!. Enjoy our Module. Don't forget to review us on Joomla Extensions Directory!</description>
+	<files>
+		<folder>tmpl</folder>
+		<filename module="mod_advanced_twitter_display">mod_advanced_twitter_display.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_advanced_twitter_display.xml</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field 
+					name="username"
+					type="text"
+					default="twitterapi"
+					label="Twitter Username" 
+					description="Your Twitter Username" />
+				<field
+					name="width"
+					type="text"
+					default="300"
+					label="Width"
+					description="The width of the plugin in pixels." />
+				<field
+					name="height"
+					type="text"
+					default="500"
+					label="Height"
+					description="The height of the plugin in pixels." />
+				<field
+					name="theme"
+					type="list"
+					default="dark"
+					label="Theme"
+					description="Choose Theme of your widget">
+					<option value="light">Light</option>
+					<option value="dark">Dark</option>
+				</field>
+				<field
+					name="linkColor"
+					type="color"
+					default="#000000"
+					label="Link Color"
+					description="Choose link color" />
+				<field
+					name="footer"
+					type="list"
+					default="nofooter"
+					label="Footer"
+					description="Show or Hide the Footer">
+					<option value="true">Show</option>
+					<option value="nofooter">Hide</option>
+				</field>
+				<field
+					name="header"
+					type="list"
+					default="noheader"
+					label="Header"
+					description="Show or Hide">
+					<option value="true">Show</option>
+					<option value="noheader">Hide</option>
+				</field>
+				<field
+					name="border"
+					type="list"
+					default="noborders"
+					label="Border"
+					description="Show or Hide">
+					<option value="true">Show</option>
+					<option value="noborders">Hide</option>
+				</field>
+				<field
+					name="scrollbar"
+					type="list"
+					default="noscrollbar"
+					label="Scrollbar"
+					description="Show or Hide">
+					<option value="true">Show</option>
+					<option value="noscrollbar">Hide</option>
+				</field>
+				<field
+					name="transparent"
+					type="list"
+					default="transparent"
+					label="Transparency"
+					description="If make transparent then can choose background color">
+					<option value="transparent">Yes</option>
+					<option value="false">No</option>
+				</field>
+				<field
+					name="bColor"
+					type="list"
+					default="1"
+					label="Background Color?"
+					description="Want to Put Background Color">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field
+					name="backgroundColor"
+					type="color"
+					default="#0188bc"
+					label="Background Color"
+					description="Choose background color" />
+				<field
+					name="borderColor"
+					type="color"
+					default="#b802b8"
+					label="Border Color"
+					description="Choose border color" />
+				<field
+					name="padding"
+					type="text"
+					default="10"
+					label="Padding Size"
+					description="Padding Size in Pixel" />
+				<field
+					name="border_radius"
+					type="text"
+					default="10"
+					label="Border Radius Size"
+					description="Border Radius Size in Pixel" />
+				<field 
+					name="language"
+					type="text"
+					default="en"
+					label="Language" 
+					description="Choose your language" />
+				<field 
+					name="tweetLimit"
+					type="text"
+					default="5"
+					label="Tweet Limit" 
+					description="Tweet Limit" />
+			</fieldset>
+			<fieldset name="advanced">
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					default=""
+					label="Module Suffix"
+					description="Module Suffix" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

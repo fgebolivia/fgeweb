@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assets>
+	<scripts>
+		<file>js/swiper/swiper.min.js</file>
+		<file>js/script.js</file>
+	</scripts>
+	
+	<stylesheets>
+		<file>js/swiper/swiper.css</file>
+		<file>fonts/font-awesome/css/font-awesome.min.css</file>
+		<file>//fonts.googleapis.com/css?family=Heebo:400,500,700,900|Noticia+Text</file>
+	</stylesheets>
+	
+</assets>

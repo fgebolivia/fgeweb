@@ -1,0 +1,18 @@
+
+
+/*===============================
+http://mediatoolsbo.com/FGE//media/com_acymailing/css/module_default.css?v=1525989684
+================================================================================*/
+.acymailing_form .grecaptcha-badge{display:none}div.acymailing_module,.acymailing_module div{padding:0 !important;margin:0 !important;border-style:none !important}table.acymailing_form{margin:auto;border:0px !important}a.acymailing_togglemodule{display :block;font-size:16px}.acymailing_mootoolsbutton p{text-align:center}.acysubbuttons{text-align:center}img.captchaimagemodule{border:1px solid #dddddd;float:left}.captchakeymodule .captchafield{margin-top:3px;margin-left:2px}.acymailing_fulldiv tr,.acymailing_fulldiv td{border:0px}.acymailing_module_form select{display:block;margin-left:auto;margin-right:auto}.acymailing_module_form td{padding-bottom:5px;vertical-align:top}div.acymailing_module_error{color:#400;background-color:#fdd;padding:1em !important;margin-bottom:10px}div.acymailing_module_success{color:#130;background-color:#dfc;padding:1em !important;z-index:10;margin-bottom:10px}.acymailing_module_form .acymailing_introtext{padding-bottom:10px;display:block}.refreshCaptchaModule{background-image:url(http://mediatoolsbo.com/FGE//media/com_acymailing/images/refresh.png);width:16px;height:16px;display:block;float:left;cursor:pointer}.acymailing_module fieldset{border:solid 1px #ccc;padding:5px}.category_warning{color:red}.hide{display:none}.slide_open{animation:deployslide 0.5s forwards;overflow:hidden}@keyframes deployslide{from{max-height:0px}to{max-height:800px}}@keyframes retractslide{from{max-height:800px}to{max-height:0px;display:none}}.slide_close{animation:retractslide 0.5s forwards;overflow:hidden;background-color:#fff;box-shadow:0px 1px 5px #eee;padding:5px;margin-bottom:20px}.slide_open{animation:deployslide 0.5s forwards;overflow:hidden;background-color:#fff;box-shadow:0px 1px 5px #eee;padding:5px;margin-bottom:20px}
+
+
+/*===============================
+/FGE/templates/ja_teline_v/acm/notification/css/style.css
+================================================================================*/
+.whatsnew-wrap{position:relative;top:-24px}.whatsnew-wrap .magazine-links{background:transparent;border-top:4px solid #cc0000;box-shadow:inset 0 0 0 1px #e5e5e5;height:360px;overflow-y:auto;padding:0}@media (max-width:992px){.whatsnew-wrap{top:53px}.whatsnew-wrap .magazine-links{border-top:0;border-bottom:3px solid #cc0000}}.whatsnew-wrap .link-item{border-bottom:1px dotted #e5e5e5;border-right:1px dotted #e5e5e5;position:relative;min-height:1px;padding-left:20px;padding-right:20px;height:72px;overflow:hidden}@media (min-width:992px){.whatsnew-wrap .link-item{float:left;width:33.33333333%}}.whatsnew-wrap .link-item .article-title h3{font-weight:400}.whatsnew-wrap .link-item .article-title a{max-height:24px;white-space:nowrap;display:block;width:100%;overflow:hidden;text-overflow:ellipsis}.whatsnew-wrap .link-item .article-title a:hover,.whatsnew-wrap .link-item .article-title a:active,.whatsnew-wrap .link-item .article-title a:focus{color:#cc0000}
+
+
+/*===============================
+/FGE/templates/ja_teline_v/acm/topic/css/style.css
+================================================================================*/
+.carousel-fade .carousel-inner .item{opacity:0;transition-property:opacity;z-index:1}.carousel-fade .carousel-inner .item.active{z-index:10}.carousel-fade .carousel-inner .active{opacity:1}.carousel-fade .carousel-inner .active.left,.carousel-fade .carousel-inner .active.right{left:0;opacity:0;z-index:1}.carousel-fade .carousel-inner .next.left,.carousel-fade .carousel-inner .prev.right{opacity:1}.carousel-fade .carousel-control{z-index:2}
